@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.top-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 100%;
+  max-width: 236px;
+  height: auto;
+}
+
+.center-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Panton Black";
+  src: url("./fonts/Panton-Black.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Panton Regular";
+  src: url("./fonts/Panton-Regular.ttf") format("truetype"); 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./fonts/Lato-Bold.ttf") format("truetype"); 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("./fonts/Lato-Regular.ttf") format("truetype"); 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("./fonts/Lato-Light.ttf") format("truetype"); 
+  font-display: swap;
+}
+
+.text-footer {
+  color: #fff;
+  font-family: "Panton Regular";
+  text-align: center;
+  font-size: small;
+}
+
+.link {
+  color: #fff;
+  font-family: "Panton Regular";
+  text-align: center;
+  font-size: small;
+}
+
+.text-top {
+  color: #fff;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.text-center {
+  color: #fff;
+  font-family: "Panton Regular";
+  text-align: center;
+  margin-top: 2%;
+  }
+
+.text-bold {
+  font-family: "Panton Regular";
+}
+
+.text-regular {
+  font-family: "Panton Regular";
+}
+
+.text-button {
+  color: #fff;
+  font-family: "Panton Block";
+  text-align: center;  
+}
+
+.form-item {
+  text-align: center;
+}
+
+.button {
+  font-size: 18px;
+  font-family: "Lato Bold"; 
+  line-height: 27px;
+
+  background-color: #fdacb8;
+  color: #fff;
+  height: 56px;
+  width: auto;
+
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
